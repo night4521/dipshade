@@ -48,7 +48,7 @@ class HeatmapTracker {
         if (this.clicks.length === 0) return;
         
         try {
-            await fetch('http://helya.wisp.uno:13100/heatmap', {
+            await fetch('https://dipshade-ks73.onrender.com/heatmap', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
