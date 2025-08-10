@@ -1,7 +1,7 @@
 // User Tracking System for Dipshade Arena
 class UserTracker {
     constructor() {
-        this.apiBase = 'http://helya.wisp.uno:13100';
+        this.apiBase = 'https://dipshade-ks73.onrender.com';
         this.sessionId = this.generateSessionId();
         this.userId = this.getUserId();
         this.startTime = Date.now();
